@@ -24,3 +24,6 @@ def obtener_cursos():
 @app.get("/productos")
 def obtener_cursos():
     return productos
+
+#ejecucion de la Api en windows
+#python -m uvicorn Api_Improvisada:app --reload
